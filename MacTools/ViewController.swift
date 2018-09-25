@@ -13,7 +13,7 @@ class ViewController: NSViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
+        self.view.layer?.backgroundColor = NSColor.white.cgColor
     }
 
     override var representedObject: Any? {
